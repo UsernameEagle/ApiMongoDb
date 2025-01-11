@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "ApiMongoDB\\ApiMongoDB.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ApiMongoDBTest\\ApiMongoDBTest.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

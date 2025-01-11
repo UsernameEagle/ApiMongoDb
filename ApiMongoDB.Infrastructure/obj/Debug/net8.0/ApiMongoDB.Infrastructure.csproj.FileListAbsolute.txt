@@ -1,0 +1,14 @@
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\bin\Debug\net8.0\ApiMongoDB.Infrastructure.deps.json
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\bin\Debug\net8.0\ApiMongoDB.Infrastructure.runtimeconfig.json
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\bin\Debug\net8.0\ApiMongoDB.Infrastructure.dll
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\bin\Debug\net8.0\ApiMongoDB.Infrastructure.pdb
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\ApiMongoDB.Infrastructure.csproj.AssemblyReference.cache
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\ApiMongoDB.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\ApiMongoDB.Infrastructure.AssemblyInfoInputs.cache
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\ApiMongoDB.Infrastructure.AssemblyInfo.cs
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\ApiMongoDB.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\ApiMongoDB.Infrastructure.dll
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\refint\ApiMongoDB.Infrastructure.dll
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\ApiMongoDB.Infrastructure.pdb
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\ApiMongoDB.Infrastructure.genruntimeconfig.cache
+C:\Desarrollo\Pruebas\ApiMongoDB\ApiMongoDB.Infrastructure\obj\Debug\net8.0\ref\ApiMongoDB.Infrastructure.dll

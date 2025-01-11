@@ -1,0 +1,9 @@
+scrape_configs:
+  - job_name: dice-service
+    scrape_interval: 5s
+    static_configs:
+      - targets: [host.docker.internal:9464]
+
+
+#ejecutar desde mismo directorio con 
+docker run --rm -v ${PWD}/prometheus.yml:/prometheus/prometheus.yml -p 9090:9090 prom/prometheus --enable-feature=otlp-write-receive

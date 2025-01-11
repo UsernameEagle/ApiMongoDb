@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiMongoDB</name>
+    </assembly>
+    <members>
+        <member name="M:ApiMongoDB.ApiDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc/>
+        </member>
+        <member name="M:ApiMongoDB.Controllers.CourseController.GetById(System.String)">
+            <summary>
+            Obtenemos un curso a partir de su identificador
+            </summary>
+            <param name="id">Identificador del curso</param>
+            <returns></returns>
+            <response code="404">NotFound. No se ha encontrado el curso solicitado</response>
+            <response code="200">Ok. Devuelve el curso solicitado</response>
+        </member>
+        <member name="M:ApiMongoDB.Controllers.CourseController.Create(ApiMongoDB.Models.Course)">
+            <summary>
+            Crea un curso nuevo.
+            </summary>
+            <param name="course">JSON con el curso a crear</param>
+            <returns>Dirección para obtener el curso creado</returns>
+            <exception cref="T:System.Exception">Excepción si hay algún error en la creación del curso</exception>
+            <response code="201">Created. El curso se crea correctamente</response>        
+        </member>
+        <member name="T:ApiMongoDB.Controllers.PersonController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ApiMongoDB.Controllers.PersonController.#ctor(MediatR.IMediator,Microsoft.Extensions.Logging.ILogger{ApiMongoDB.Controllers.PersonController},ApiMongoDB.Models.Instrumentor,ApiMongoDB.Services.IPersonService,MongoDB.Driver.IMongoClient,ApiMongoDB.MongoDbContext)">
+            <summary>
+            
+            </summary>
+            <param name="mediator"></param>
+            <param name="logger"></param>
+            <param name="instrumentation"></param>        
+        </member>
+        <member name="M:ApiMongoDB.Controllers.PersonController.CreatePerson(ApiMongoDB.Models.Person)">
+            <summary>
+            
+            </summary>
+            <param name="person"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMongoDB.Controllers.PersonController.CreatePersonFromFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMongoDB.Controllers.PersonController.Get(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApiMongoDB.CQRS.Commands.CreatePersonCommand">
+            <summary>
+            
+            </summary>
+            <param name="person"></param>
+        </member>
+        <member name="M:ApiMongoDB.CQRS.Commands.CreatePersonCommand.#ctor(ApiMongoDB.Models.Person)">
+            <summary>
+            
+            </summary>
+            <param name="person"></param>
+        </member>
+        <member name="P:ApiMongoDB.CQRS.Commands.CreatePersonCommand.person">
+            <summary></summary>
+        </member>
+        <member name="T:ApiMongoDB.CQRS.Commands.CreatePersoncommandHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ApiMongoDB.CQRS.Commands.CreatePersoncommandHandler.#ctor(ApiMongoDB.Services.IPersonService)">
+            <summary>
+            
+            </summary>
+            <param name="personService"></param>
+        </member>
+        <member name="M:ApiMongoDB.CQRS.Commands.CreatePersoncommandHandler.Handle(ApiMongoDB.CQRS.Commands.CreatePersonCommand,System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ApiMongoDB.HangFireJobs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ApiMongoDB.HangFireJobs.RunRecurringJob">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ApiMongoDB.Models.Instrumentation">
+            <summary>
+            It is recommended to use a custom type to hold references for ActivitySource.
+            This avoids possible type collisions with other components in the DI container.
+            </summary>
+        </member>
+        <member name="T:ApiMongoDB.Services.PersonService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ApiMongoDB.Services.PersonService.#ctor(Microsoft.Extensions.Options.IOptions{ApiMongoDB.Models.SchoolDatabaseSettings},MongoDB.Driver.IMongoClient,ApiMongoDB.MongoDbContext)">
+            <summary>
+            
+            </summary>
+            <param name="schoolDatabaseSettings"></param>
+            <param name="client"></param>        
+        </member>
+        <member name="M:ApiMongoDB.Services.PersonService.GetById(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiMongoDB.Services.PersonService.Create(ApiMongoDB.Models.Person)">
+            <summary>
+            
+            </summary>
+            <param name="person"></param>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+    </members>
+</doc>
